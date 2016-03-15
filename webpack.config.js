@@ -14,7 +14,7 @@ var environments = {
         {
           test: /\.js$/,
           exclude: /node_modules/,
-          loaders: ['react-hot', 'babel?presets[]=react,presets[]=es2015,plugins[]=babel-plugin-transform-object-rest-spread'],
+          loaders: ['react-hot', 'babel'],
         },
         {
           test: /\.html$/,
@@ -42,7 +42,7 @@ var environments = {
         {
           test: /\.js$/,
           exclude: /node_modules/,
-          loaders: ['babel-loader'],
+          loaders: ['babel'],
         },
         {
           test: /\.html$/,
