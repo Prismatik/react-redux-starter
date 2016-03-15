@@ -1,6 +1,5 @@
 # Redux-react-starter
 
-
 This project includes a basic starter boilerplate for our Redux + React + React-router projects, using webpack as a build system and babel for transpilation.
 
 Be sure to `npm install` first.
@@ -24,15 +23,10 @@ Be sure to `npm install` first.
 
 ## Production
 
-
 2. `npm run build` will build and uglify files to `dist/` ready to push to production.
 
 ### Todos:
 
-* Update react, react-router, redux and react-redux deps.
-* Update babel to v6
-* Remove lodash in favour for babel object spread (I believe babel-preset-react has this)
 * Add in react-redux-router over the top of react-router
 * Configure (and update) redux-devtools
 * Add some basic tests for the example, including example redux tests & example react tests
-
