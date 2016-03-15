@@ -14,7 +14,7 @@ var environments = {
         {
           test: /\.js$/,
           exclude: /node_modules/,
-          loaders: ['react-hot', 'babel'],
+          loaders: ['react-hot', 'babel']
         },
         {
           test: /\.html$/,
