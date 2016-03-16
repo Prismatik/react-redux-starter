@@ -1,12 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class Main extends Component {
-  render() {
-    return (
-      <div>
-        <input type="text" onChange={this.props.onNameChange} />
-        <p> Hello {this.props.name} </p>
-      </div>
-    )
-  }
+export default function Main({ name, onNameChange }) {
+  return (
+    <div>
+      <input type="text" onChange={onNameChange} />
+      <p> Hello {name} </p>
+    </div>
+  )
 }
