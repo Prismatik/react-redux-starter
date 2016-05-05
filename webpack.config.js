@@ -23,6 +23,9 @@ var environments = {
     output: {
       filename: 'app.js',
       path: __dirname + '/dist',
+    },
+    devServer: {
+      port: 9000
     }
   },
 
