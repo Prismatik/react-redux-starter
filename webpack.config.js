@@ -2,13 +2,11 @@ var webpack = require('webpack');
 
 var environments = {
   development: {
-    context: __dirname + '/app',
-
+    context: __dirname + '/src',
     entry: {
       javascript: './app.js',
       html: './index.html',
     },
-
     module: {
       loaders: [
         {
@@ -22,7 +20,6 @@ var environments = {
         }
       ]
     },
-
     output: {
       filename: 'app.js',
       path: __dirname + '/dist',
@@ -30,13 +27,11 @@ var environments = {
   },
 
   production: {
-    context: __dirname + '/app',
-
+    context: __dirname + '/src',
     entry: {
       javascript: './app.js',
       html: './index.html',
     },
-
     module: {
       loaders: [
         {
@@ -50,11 +45,9 @@ var environments = {
         }
       ]
     },
-
     plugins: [
       new webpack.optimize.UglifyJsPlugin({minimize: true})
     ],
-
     output: {
       filename: 'app.js',
       path: __dirname + '/dist',
