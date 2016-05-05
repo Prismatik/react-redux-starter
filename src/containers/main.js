@@ -1,7 +1,7 @@
 import { Component } from 'react';
 import { connect } from 'react-redux';
 
-import Main from '../components/Main';
+import Home from '../components/home';
 import { changeName } from '../redux/actions/hello';
 
 function mapStateToProps(state) {
@@ -16,4 +16,4 @@ function mapDispatchToProps(dispatch) {
   };
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Main)
+export default connect(mapStateToProps, mapDispatchToProps)(Home)

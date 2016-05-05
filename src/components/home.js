@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Main({ name, onNameChange }) {
+export default function Home({ name, onNameChange }) {
   return (
     <div>
       <input type="text" onChange={onNameChange} />
