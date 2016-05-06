@@ -1,6 +1,4 @@
-import { Component } from 'react';
 import { connect } from 'react-redux';
-
 import Home from '../components/home';
 import { changeName } from '../redux/actions/hello';
 
