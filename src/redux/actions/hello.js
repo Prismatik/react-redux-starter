@@ -1,5 +1,3 @@
-export const CHANGE_NAME = 'CHANGE_NAME';
+import { createAction } from 'redux-actions';
 
-export function changeName(name) {
-  return { type: CHANGE_NAME, name };
-}
+export const changeName = createAction('CHANGE_NAME');

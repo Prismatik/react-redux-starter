@@ -1,15 +1,9 @@
-import { CHANGE_NAME } from '../actions/hello';
+import { handleActions } from 'redux-actions';
 
 const initialState = {
   name: 'world'
 };
 
-export function hello(state = initialState, action) {
-  switch (action.type) {
-    case CHANGE_NAME:
-      return { ...state, name: action.name };
-      break
-    default:
-      return state;
-  }
-}
+export const hello = handleActions({
+  'CHANGE_NAME': (state, action) => ({ name: action.payload })
+}, initialState);
