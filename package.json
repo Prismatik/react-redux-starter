@@ -1,5 +1,5 @@
 {
-  "name": "redux-react-starter",
+  "name": "react-redux-starter",
   "version": "1.0.0",
   "description": "Starter pack for redux + react + webpack projects",
   "main": "app/app.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Prismatik/redux-react-starter.git"
+    "url": "https://github.com/Prismatik/react-redux-starter.git"
   },
   "author": "Prismatik <contact@prismatik.com.au> (http://blog.prismatik.com.au)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Prismatik/redux-react-starter/issues"
+    "url": "https://github.com/Prismatik/react-redux-starter/issues"
   },
-  "homepage": "https://github.com/Prismatik/redux-react-starter",
+  "homepage": "https://github.com/Prismatik/react-redux-starter",
   "devDependencies": {
     "babel-core": "^6.7.2",
     "babel-loader": "^6.2.4",

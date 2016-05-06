@@ -1,6 +1,6 @@
-# Redux + React + React Router starter
+# React + Redux starter
 
-This project includes a basic starter boilerplate for our Redux + React +
+This project includes a basic starter boilerplate for our React + Redux +
 React Router projects, using [webpack as a build system and babel for
 transpilation.
 
@@ -9,8 +9,8 @@ transpilation.
 Clone the repo:
 
 ```
-git clone --depth=1 git@github.com:Prismatik/redux-react-starter.git
-cd redux-react-starter
+git clone --depth=1 git@github.com:Prismatik/react-redux-starter.git
+cd react-redux-starter
 npm install
 npm run dev
 ```
