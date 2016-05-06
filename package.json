@@ -1,23 +1,24 @@
 {
-  "name": "redux-react-starter",
+  "name": "react-redux-starter",
   "version": "1.0.0",
   "description": "Starter pack for redux + react + webpack projects",
   "main": "app/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "NODE_ENV=development webpack-dev-server --hot --inline",
-    "build": "NODE_ENV=production webpack"
+    "build": "NODE_ENV=production webpack",
+    "test": "./node_modules/.bin/_mocha",
+    "autotest": "./node_modules/.bin/_mocha --watch"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Prismatik/redux-react-starter.git"
+    "url": "https://github.com/Prismatik/react-redux-starter.git"
   },
-  "author": "Nick Matenaar <matenaar92@gmail.com> (http://nickmatenaar.com/)",
+  "author": "Prismatik <contact@prismatik.com.au> (http://blog.prismatik.com.au)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Prismatik/redux-react-starter/issues"
+    "url": "https://github.com/Prismatik/react-redux-starter/issues"
   },
-  "homepage": "https://github.com/Prismatik/redux-react-starter",
+  "homepage": "https://github.com/Prismatik/react-redux-starter",
   "devDependencies": {
     "babel-core": "^6.7.2",
     "babel-loader": "^6.2.4",
@@ -25,20 +26,26 @@
     "babel-preset-es2015": "^6.6.0",
     "babel-preset-react": "^6.5.0",
     "file-loader": "^0.8.4",
+    "mocha": "^2.4.5",
+    "must": "^0.13.1",
+    "must-jsx": "^2.0.0",
+    "react-addons-test-utils": "^0.14.8",
     "react-hot-loader": "^1.3.0",
     "webpack": "^1.12.14",
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
     "history": "^2.0.1",
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7",
     "react-redux": "^4.4.1",
     "react-router": "^2.0.1",
     "redux": "^3.0.0",
+    "redux-actions": "^0.9.1",
     "redux-devtools": "^3.1.1",
     "redux-logger": "^2.6.1",
     "redux-thunk": "^2.0.1"
   },
-  "engine": "node 4.0.0"
+  "peerDependencies": {
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
+  }
 }
