@@ -2,7 +2,7 @@ import { connect } from 'react-redux';
 import Home from '../components/home';
 import { changeName } from '../redux/actions/hello';
 
-function mapStateToProps(state) {
+export function mapStateToProps(state) {
   return {
     name: state.hello.name
   };
