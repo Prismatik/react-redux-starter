@@ -34,7 +34,7 @@ npm run build
 
 This will build and uglify files to `dist/` ready to push to production.
 
-## Includes:
+## Includes
 
 * [react](https://github.com/facebook/react) - for rendering
 * [react-router](https://github.com/reactjs/react-router) - for routing
@@ -49,6 +49,6 @@ This will build and uglify files to `dist/` ready to push to production.
 * [babel](https://github.com/babel/babel) - to transpile es6
 * [mocha](https://github.com/mochajs/mocha) + [must](https://github.com/moll/js-must) - for testing
 
-## Todos:
+## Todos
 
 * Configure react-devtools
