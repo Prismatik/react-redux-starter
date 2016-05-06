@@ -9,7 +9,7 @@ transpilation.
 Clone the repo:
 
 ```
-git clone --depth=1 git@github.com:Prismatik/react-redux-starter.git
+git clone --depth 1 git@github.com:Prismatik/react-redux-starter.git
 cd react-redux-starter
 npm install
 npm run dev
