@@ -1,7 +1,7 @@
 # React + Redux starter
 
 This project includes a basic starter boilerplate for our React + Redux +
-React Router projects, using [webpack as a build system and babel for
+React Router projects, using webpack as a build system and babel for
 transpilation.
 
 ## Getting Started
