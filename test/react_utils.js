@@ -5,7 +5,7 @@ import TestUtils from 'react-addons-test-utils';
 mustJSX(must);
 
 export function shallowComponent(component) {
-  let renderer = TestUtils.createRenderer();
+  const renderer = TestUtils.createRenderer();
   renderer.render(component);
   return renderer.getRenderOutput();
 }

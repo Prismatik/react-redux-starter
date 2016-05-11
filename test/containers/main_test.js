@@ -1,6 +1,4 @@
-import React from 'react';
-import { Main, mapStateToProps } from '../../src/containers/main';
-import { shallowComponent } from '../react_utils';
+import { mapStateToProps } from '../../src/containers/main';
 
 describe('./containers/main', function() {
   describe('.mapStateToProps', function() {
