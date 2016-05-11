@@ -5,5 +5,5 @@ export const initialState = {
 };
 
 export const hello = handleActions({
-  'CHANGE_NAME': (state, action) => ({ name: action.payload })
+  CHANGE_NAME: (state, action) => ({ name: action.payload })
 }, initialState);
