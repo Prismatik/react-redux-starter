@@ -1,6 +1,6 @@
 {
   "name": "react-redux-starter",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Starter pack for React + Redux + Webpack projects",
   "main": "dist/app.js",
   "scripts": {
