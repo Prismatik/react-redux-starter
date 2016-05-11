@@ -6,12 +6,8 @@ transpilation.
 
 ## Getting Started
 
-Clone the repo:
 
 ```
-git clone --depth 1 git@github.com:Prismatik/react-redux-starter.git
-cd react-redux-starter
-rm -rf .git (OPTIONAL: if cloning into an existing repo)
 npm install
 npm run dev
 ```
